@@ -1,10 +1,10 @@
 if [ -z $UPSTREAM_REPO ]
 then
   echo "Cloning main Repository"
-  git clone https://github.com/Moviesadda24_7bots/url-auto-delete-shortener-bot /Eva
+  git clone https://github.com/HelloUltra44/niranjan /niranjan
 else
   echo "Cloning Custom Repo from $UPSTREAM_REPO "
-  git clone $UPSTREAM_REPO /Eva
+  git clone $UPSTREAM_REPO /niranjan
 fi
 cd /Eva
 pip3 install -U -r requirements.txt
